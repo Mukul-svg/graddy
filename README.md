@@ -72,7 +72,7 @@ ys = [1.0, -1.0, -1.0, 1.0] # Target labels
 model = MLP(3, [8, 8, 1])
 
 # Training loop
-for epoch in range(300):
+for epoch in range(100):
     # Forward pass
     ypred = [model(x) for x in inputs]
     loss = sum((yout - ygt)**2 for ygt, yout in zip(ys, ypred))
