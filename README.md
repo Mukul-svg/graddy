@@ -117,6 +117,23 @@ python test/test.py
 
 ---
 
+## 🗺️ Roadmap
+
+Future plans and feature implementations:
+- [ ] **Tensor Support**: Transition from scalar-valued `Value` units to multidimensional tensors.
+- [ ] **Broadcasting**: Element-wise operations across tensor shapes of different sizes.
+- [ ] **Matrix Multiplication**: Optimized matrix multiply ($X \cdot W$) operations for faster layer execution.
+- [ ] **Softmax & Cross-Entropy Loss**: Standard classification metrics and loss components.
+- [ ] **Adam Optimizer**: Momentum-based adaptive learning rate optimizer for faster convergence.
+- [ ] **Gradient Checking**: Finite-difference approximations to numerically verify gradient values.
+- [ ] **DataLoader**: Mini-batch processing, shuffling, and data pipeline management.
+- **Advanced Architectures**:
+  - [ ] **CNN Layers**: 2D convolution and max-pooling operations.
+  - [ ] **Transformer Blocks**: Multi-head self-attention mechanisms and layer normalization.
+- [ ] **GPU Backend**: Integration with CUDA or OpenCL for hardware-accelerated tensor computations.
+
+---
+
 ## 📝 License
 
 This project is licensed under the [MIT License](LICENSE).
